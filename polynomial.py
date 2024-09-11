@@ -15,7 +15,7 @@ class Int:
     def __repr__(self):
         return str(self.i)
     
-    def evaluate(self, x):
+    def evaluate(self):
         return self.i
 
 class Add:
